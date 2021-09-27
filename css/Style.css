@@ -1,0 +1,605 @@
+
+/*INDEX */
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.total{
+  height: 852px;    
+  width: 100%;
+  margin: 0 auto;              
+}
+nav{
+    z-index: 10;
+}
+.totalAnime{
+  height: auto;
+  width: 100%;
+  margin: 0 auto;    
+      
+}
+
+
+.totalContatos{
+  background-image: url(../img/galeria/p2.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;
+  height: 852px;
+  width: 100%;    
+}
+.totalGaleria{
+  background-image: url(../img/galeria/p2.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;
+  height: 852px;
+  width: 100%;    
+}
+.totalfilm{
+  background-image: url(../img/galeria/p2.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;
+  height: 852px;
+  width: 100%;    
+}
+.totalfoto{
+  background-image: url(../img/galeria/p2.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;
+  height: 852px;
+  width: 100%;    
+}
+
+.footer{
+    width: 100%;
+    background: black;
+    height: 40px;
+    z-index: 10;
+}
+.footer p{
+ color: white;
+    text-align: center;
+}
+.section1{
+    position: fixed;
+    width: 50%;
+    left: 45%;
+    top: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    color:white;
+    z-index: 5;
+}
+.authorimage img{
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-right: 10%;
+}
+.section1 h2, .section p{
+    font-size: 130%;
+    font-family: 'Caviar Dreams';
+}
+.section1 p{
+    font-size: 99%;
+    font-family: 'Caviar Dreams';
+}
+.section1 .btn{
+    background: gray;
+    width: auto;
+    height: 40px;
+}
+.section1 .btn a{
+        color:white;
+}
+.section1 .btn a:hover{
+    text-decoration: none;
+}
+.section1 .btn:hover{
+    background: black;
+}
+#linha{
+    background: white;
+    height: 1px;
+    width: 52%;
+    float: left;
+}
+.dropdown-menu #ani:hover{
+    background: rgba(54, 162, 255, 0.47);
+    color: white;
+}
+.dropdown-menu a:hover{
+    background: #c6c6c6;
+    color: white;
+}
+.dropdown-menu a{
+    text-align: center;
+}
+ @media only screen and (max-width: 1100px){
+     #linha{
+         display: none;
+     }
+}
+@media only screen and (width: 1920px){
+     #linha{
+    width: 35%;
+     }
+}
+@media only screen and (width: 1024px){
+  .authorimage img{
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-right: 60%;
+    margin-bottom: 10%;  
+} 
+    #linha{
+         display: block;
+         width: 90%;
+
+     }
+}
+/* ------------ carousel -------------------*/
+.carousel-inner{
+  list-style: none;
+  /* aqui tiro a opção de passar SLIDEs < >  */
+  z-index: -10;
+  top:0px;    
+  height: 852px;
+  width: 100%;    
+}
+
+
+/* apagar os tracinhos que indicam onde a posição do carousel */
+
+.carousel-indicators{
+  opacity: 0;
+    
+}
+
+@media only screen and (width: 1024px){
+ .carousel-inner{
+  height: 900px;
+   }
+
+}
+
+/* QUEM SOMOS */
+.totalSomos{
+  background-image: url(../img/galeria/p2.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;
+  height: 852px;
+  width: 100%;    
+}
+.section2{
+    position:relative;
+    width: 70%;
+    height: auto;
+    left: 15%;
+    top: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    color:white;
+    display:;
+}
+#img1{
+    float: left;
+    margin: -1% 5% 1% 0px;
+    width: 30%;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box1{
+margin: -5% 0px 0px 0px;
+text-align: justify;
+ width: 99%;
+ height: auto;
+ margin:3%;
+ margin-left: 5%;    
+}
+.box1 h2{
+    margin-top: -5%;
+    font-family: 'Caviar Dreams';
+    text-align: center;
+
+}
+@media only screen and (width: 1440px){
+    #img1{
+    width: 30%;
+    height: 450px;
+}
+}
+@media only screen and (max-width: 1024px){
+    #img1{
+    width: 60%;
+    height: 200px;
+    margin: -1% 30% 5% 20%;
+
+}
+    .box1{
+margin: -1% 0px 0px 0px;
+text-align: justify;
+ width: 90%;
+ height: auto;
+ margin:3%;
+ margin-left: 5%;    
+}
+    .section2{
+    top: 30px;
+    padding: 60px;
+
+  
+}
+    .box1 h2{
+    text-align: center;
+}
+}
+
+/* GALERIA*/
+.gallery-container h1 {
+    text-align: center;
+    margin-top:0px;
+    font-family:'Caviar Dreams';
+    color: white;
+    z-index: 10;
+    font-size: 50px;
+    
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+    transition: 0.15s ease-in-out;
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    color: white;
+}
+
+.thumbnail img{
+    width: 95%;
+    height: 200px;
+    margin-top: 0%;
+    border-radius: 4px 4px 4px 4px;
+
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: rgba(6, 179, 222, 0.99);
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important; 
+}
+.row img{
+    border:5px solid rgba(255, 255, 255, 0.97);
+}
+.row h3{
+    color: white;
+    position: absolute;
+    margin: -1% 0px 0px 6%;
+    z-index: 15;
+    font-family:'Caviar Dreams';
+
+}
+.cortx{
+    background: rgb(0, 0, 0);
+    width: 70%;
+    height: 30px;
+    position:absolute;
+    margin: 5% 0px 0px 4%;
+    z-index: 10;
+}
+
+@media only screen and (min-width: 1024px){
+    .row h3{
+     margin: -1% 0px 0px 22%;
+    }
+}
+@media only screen and (width:1920px){
+    .row h3{
+     margin: -1% 0px 0px 25%;
+    }
+}
+.cortx{
+    background: rgba(0, 0, 0, 0.37);
+    width: 80%;
+    height: 30px;
+    position:absolute;
+    margin: 5% 0px 0px 8%;
+    z-index: 10;
+}
+
+/*CONTATOS*/
+.funcontato{
+  position: relative;
+    width: 30%;
+    height: 800px;
+    top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    color:white;  
+}
+.funcontato img{
+    width: 370px;
+    height: 750px;
+    float: right;
+    margin: -80% 2% 0% 0%;
+}
+#ctt{
+    margin-top: -90px;
+}
+#ctt p{
+    font-size: 18px;
+}
+#ctt p i{
+    font-size: 24px;
+    margin-right: 5%;
+}
+#ctt h3{
+     font-family:'Caviar Dreams';
+     text-align: center;
+
+}
+#contact h3{
+        text-align: center;
+        font-family:'Caviar Dreams'; 
+
+}
+#ctt a{
+    color: white;
+    margin-left: 1%;
+}
+#ctt a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+@media only screen and (width: 1440px){
+    .funcontato img{
+    width: 280px;
+    height: 750px;
+    margin: -110% 2% 0% 0%;
+    }
+}
+@media only screen and (max-width: 1024px){
+.funcontato{
+    height: 840px;
+    }
+    .funcontato img{
+    width: 190px;
+    height: 750px;
+    margin: -160% 2% 0% 0%;
+    }
+    .totalContatos{
+  height: 900px;
+  width: 100%;    
+}
+    #ctt p{
+    font-size: 12px;
+}
+}
+/*ANIMAÇÃO*/
+#foto{
+    width: 72px;
+    height: 52px;
+    margin-top: -1%;
+}
+#navanime{
+    background: #2980b9;
+}
+
+.footer2{
+    width: 100%;
+    background: #2980b9;
+    height: 40px;
+    margin-top: 5%;
+  clear: left;
+
+}
+.footer2 p{
+ color: white;
+    text-align: center;
+}
+.tremer{
+    animation: treme 0.30s;
+  animation-iteration-count: 10;
+}
+
+@keyframes treme{
+  0% {margin-left: 5px;}
+  25% {margin-right: 5px;}
+  50% {margin-left: -5px;}
+  75% {margin-right: -5px;}
+  100% {margin-left: 5px;}
+}
+
+#wallpaper{
+  background-image: url(../img/animacao/moana.jpg);
+  background-repeat:fixed no-repeat;
+  background-size: cover;        
+  height: 700px;
+  width: 100%;    
+}
+.white{
+    background: white;
+    width: 100%;
+    height: 200px;
+}
+.white h2{
+        font-family:'Caviar Dreams'; 
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2%;
+        text-shadow: 1px 2px gray;
+}
+.white img{
+    width: 15%;
+    padding: 1%;
+    box-shadow: 1px 1px 10px 1px #e6e6e6;
+    margin-left: 1%;
+}
+
+.qanime{
+    background-image: linear-gradient(white,#f469e4);
+    width: 100%;
+    height: 620px;
+    z-index: -3;
+}
+.qanime p{
+    width: 50%;
+    margin: 1% 0% 0% 2%;
+    height: 200px;
+    text-align: justify;
+}
+
+.qanime img{
+    float: right;
+    margin-top: -25%;
+    margin-right: 5%;
+}
+@media only screen and (width: 1024px){
+    .qanime img{
+        margin-top: -20%;
+        width: 300px;
+        margin-right: 10%;
+
+    }
+}
+@media only screen and (min-width: 1440px){
+    .qanime img{
+        margin-top: -20%;
+        width: 300px;
+        margin-right: 10%;
+
+    }
+}
+
+.qanime h2{
+  font-family:'Caviar Dreams'; 
+        font-size: 50px;
+    margin: 8% 0% 2% 20%;
+    text-shadow: 2px 2px gray;
+
+}
+
+.yellow{
+    background:rgba(255, 255, 0, 0.6);
+    width: 33.3%;
+    height:923px; 
+    float: left;
+    z-index: -5;
+    border-right: solid white 4px;
+}
+
+#teste{
+  background-image: url(../img/galeria/1212.png);
+    background-repeat:no-repeat;
+  background-size: 100% 100%; 
+    height: 500px;
+    border-radius: 50%;
+    width: 70%;
+    border: 20px solid white;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 1px 1px 40px 10px white;
+}
+@media only screen and (max-width: 1024px){
+  #teste{
+    height: 300px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}  
+}
+.green,.yellow,.blue{
+    border-top: solid white 4px;
+    
+}
+.green{
+    background:rgba(0, 177, 0, 0.69);
+    width: 33.3%;
+    height:923px;
+    float: left;
+    z-index: -5;
+    border-right: solid white 4px;
+}
+.blue{
+    background:rgba(0, 0, 255, 0.68);
+    width: 33.4%;
+    height:923px; 
+    float: left;
+    z-index: -5;
+}
+.yellow p,.green p,.blue p{
+    width: 90%;
+    text-align: center;
+    margin-left: 4%;
+    height: 30%;
+    font-size: 16px;
+}
+.actt{
+    width: 100%;
+    height: 200px;
+      clear: left;
+    text-align: center;
+}
+.actt h2{
+    padding: 4%;
+    font-size:25px; 
+    text-shadow: 2px  1px gray;
+}
+#actt2{
+    display: inline-flex;
+}
+#actt2 p{
+    font-size: 130%;
+    margin-left: 100px;
+}
+#actt2 i{
+    font-size: 200%;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 1440px){
+    #actt2 p{
+    font-size: 130%;
+    margin-left: 80px;
+}
+#actt2 i{
+    font-size: 200%;
+    margin-right: 5px;
+}
+}
+@media only screen and (max-width: 1024px){
+    #actt2 p{
+    font-size: 15px;
+    margin-left: 50px;
+}
+#actt2 i{
+    font-size: 200%;
+    margin-right: 5px;
+}
+    .actt h2{
+    padding: 5%;
+    font-size:25px; 
+}
+}
